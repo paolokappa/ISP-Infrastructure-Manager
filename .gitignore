@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+build/
+*.pid
+*.seed
+*.pid.lock
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# SSL Certificates
+certs/
+*.pem
+*.crt
+*.key
+*.pfx
+
+# Company sensitive data
+config/company-settings.json
+config/company-settings.*.json
+!config/company-settings.example.json
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+logs/
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Company logos
+public/assets/*.png
+public/assets/*.jpg
+public/assets/*.svg
+!public/assets/.gitkeep
+
+# API tokens and secrets
+.env.production
+.env.local
+*.token
+*.secret
+
+# Test data
+test-data/
+__tests__/fixtures/sensitive/

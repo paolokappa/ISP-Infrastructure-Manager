@@ -1,0 +1,39 @@
+{
+  "company": {
+    "name": "Your Company Name",
+    "address": "Your Street Address",
+    "city": "Your City",
+    "postalCode": "00000",
+    "country": "Your Country",
+    "vatNumber": "VAT-000000",
+    "asNumber": "AS00000",
+    "nocEmail": "noc@example.com",
+    "techEmail": "tech@example.com",
+    "salesEmail": "sales@example.com",
+    "supportEmail": "support@example.com",
+    "website": "https://www.example.com",
+    "phone": "+00 00 000 00 00",
+    "fax": "+00 00 000 00 00"
+  },
+  "loaTemplate": {
+    "authorizedSignatory": "Authorized Person Name",
+    "signatoryTitle": "Title/Position",
+    "defaultValidityDays": 365,
+    "templateVersion": "2.0"
+  },
+  "api": {
+    "equinixEnabled": false,
+    "equinixClientId": "",
+    "equinixClientSecret": "",
+    "peeringDbEnabled": true,
+    "peeringDbApiKey": "",
+    "whoisEnabled": true
+  },
+  "features": {
+    "portManagement": true,
+    "equinixIntegration": false,
+    "peeringDbSearch": true,
+    "whoisLookup": true,
+    "pdfGeneration": true
+  }
+}
