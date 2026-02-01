@@ -7,9 +7,13 @@
 [![React](https://img.shields.io/badge/React-18.x-61dafb)](https://reactjs.org/)
 
 <div align="center">
-  <img src="https://www.peeringdb.com/static/peeringdb.svg" alt="PeeringDB" height="50"/>
+  <a href="https://www.peeringdb.com">
+    <img src="https://www.peeringdb.com/media/logos/pdb_logo_232x72.png" alt="PeeringDB" height="50"/>
+  </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://www.equinix.com/content/dam/eqxweb/Images/logos/logo-tagline-red-140.png" alt="Equinix" height="50"/>
+  <a href="https://www.equinix.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Equinix_logo.svg/320px-Equinix_logo.svg.png" alt="Equinix" height="50"/>
+  </a>
 </div>
 
 ## Professional Infrastructure Management Platform for ISPs
