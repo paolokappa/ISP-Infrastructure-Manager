@@ -6,25 +6,21 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.x-61dafb)](https://reactjs.org/)
 
-<p align="center">
-  <a href="https://www.peeringdb.com">
-    <img src="./docs/images/peeringdb-logo.png" alt="PeeringDB" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.equinix.com">
-    <img src="./docs/images/equinix-logo-official.svg" alt="Equinix" height="60"/>
-  </a>
-</p>
-
 ### 🔗 Integrated with Industry Leaders
 
 <table align="center">
   <tr>
     <td align="center" width="50%">
+      <a href="https://www.peeringdb.com">
+        <img src="./docs/images/peeringdb-logo.png" alt="PeeringDB" height="50"/>
+      </a>
       <h3>🌐 PeeringDB</h3>
       <p>Complete integration with the global interconnection database for real-time facility and network operator data</p>
     </td>
     <td align="center" width="50%">
+      <a href="https://www.equinix.com">
+        <img src="./docs/images/equinix-logo-official.svg" alt="Equinix" height="50"/>
+      </a>
       <h3>🏢 Equinix</h3>
       <p>Direct API connection for automated port management and cross-connect provisioning</p>
     </td>
