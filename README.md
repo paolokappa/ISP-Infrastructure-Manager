@@ -1,10 +1,18 @@
-# ISP Infrastructure Manager
+<div align="center">
+
+# 🚀 ISP Infrastructure Manager
+
+### Enterprise-Grade Infrastructure Management Platform for ISPs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org)
 [![Next.js](https://img.shields.io/badge/Next.js-13.5-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.x-61dafb)](https://reactjs.org/)
+
+---
+
+</div>
 
 ### 🔗 Integrated with Industry Leaders
 
