@@ -6,101 +6,84 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.x-61dafb)](https://reactjs.org/)
 
-A comprehensive, enterprise-grade infrastructure management platform designed specifically for Internet Service Providers (ISPs), telecommunications companies, and data center operators. This powerful web application streamlines cross-connect operations, automates Letter of Authorization (LoA) generation, and provides intelligent port management capabilities.
+<div align="center">
+  <img src="https://www.peeringdb.com/static/peeringdb.svg" alt="PeeringDB" height="50"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://www.equinix.com/content/dam/eqxweb/Images/logos/logo-tagline-red-140.png" alt="Equinix" height="50"/>
+</div>
+
+## Professional Infrastructure Management Platform for ISPs
+
+A comprehensive web application designed for Internet Service Providers (ISPs) and data center operators, featuring seamless integration with **PeeringDB** and **Equinix APIs**. Generate professional Letters of Authorization (LoA), manage port configurations, and streamline cross-connect operations with enterprise-grade security.
 
 ## 🎯 Overview
 
-The ISP Infrastructure Manager revolutionizes how network operators handle their data center infrastructure by providing a unified platform that combines document generation, port visualization, and third-party API integrations into a seamless workflow. Built with modern web technologies and security-first principles, it scales from small ISPs to large telecommunications enterprises.
+ISP Infrastructure Manager revolutionizes datacenter operations by providing a unified platform that automates document generation, visualizes port utilization, and integrates with industry-standard APIs. Built with Next.js 13.5 and TypeScript, it delivers a modern, responsive interface for managing critical infrastructure.
 
-## ✨ Key Features
+## ✨ Core Features
 
 ### 📄 **Professional LoA Generation**
-- **Dynamic PDF Creation**: Generate industry-standard Letters of Authorization in seconds
-- **Smart Template Engine**: Customizable templates with automatic data population
-- **Multi-Format Support**: Export to PDF with professional formatting and branding
-- **Batch Processing**: Generate multiple LoAs simultaneously for bulk operations
-- **Version Control**: Track document revisions and maintain audit trails
-- **Digital Signatures**: Support for electronic signature workflows
-- **QR Code Integration**: Embed verification QR codes for document authenticity
+- **Instant PDF Creation**: Generate industry-standard Letters of Authorization in seconds
+- **Dynamic Data Population**: Automatically fill forms with company and facility information
+- **Customizable Templates**: Configure company branding and signatory information
+- **Professional Formatting**: Clean, business-ready PDF output with proper letterhead
+- **Validation System**: Built-in form validation to ensure data accuracy
+- **Export Functionality**: Download PDFs directly or email to recipients
 
-### 🔌 **Visual Port Management System**
-- **Interactive Patch Panel Visualization**: Real-time graphical representation of port status
-- **Drag-and-Drop Interface**: Intuitive port assignment and management
-- **Port Status Tracking**: Monitor availability, reservations, and active connections
-- **Capacity Planning**: Visual heat maps showing utilization trends
-- **Port History**: Complete audit trail of port assignments and changes
-- **Media Type Management**: Track fiber types, connector specifications, and speeds
-- **Smart Search**: Find available ports based on multiple criteria
+### 🔌 **Visual Port Management**
+- **Interactive Patch Panel View**: Real-time graphical representation of port status
+- **Port Status Tracking**: Monitor available, occupied, and reserved ports
+- **Port Assignment**: Easily assign and track cross-connect installations
+- **Media Type Support**: Track fiber types (OS2, OM3, OM4, OM5) and connector specifications
+- **Port History**: Maintain audit trail of assignments and changes
+- **Search & Filter**: Find available ports quickly by multiple criteria
 
-### 🌐 **Third-Party Integrations**
+### 🌐 **PeeringDB Integration**
+- **Real-time Facility Search**: Access the complete PeeringDB database
+- **Network Operator Lookup**: Find carriers present at any facility
+- **ASN Validation**: Automatic AS number and company verification
+- **Facility Information**: Get detailed datacenter specifications
+- **Network Presence**: Verify carrier availability at specific locations
+- **Contact Discovery**: Access NOC and peering contact information
 
-#### **PeeringDB Integration**
-- Real-time facility and network operator data
-- Automatic ASN validation and company information retrieval
-- Peering location discovery
-- Network presence verification at facilities
-- Contact information synchronization
+### 🏢 **Equinix API Integration** 
+- **Direct Portal Sync**: Connect with your Equinix customer portal
+- **Port Availability**: Real-time synchronization of patch panel status
+- **IBX Facility Data**: Access detailed facility information
+- **Cabinet Management**: Track cage and cabinet assignments
+- **Automated Updates**: Keep local data synchronized with Equinix
+- **Order Status**: Track cross-connect order progress
 
-#### **Equinix API Integration** (Optional)
-- Direct synchronization with Equinix portal
-- Automatic port availability updates
-- Cross-connect order status tracking
-- IBX facility information retrieval
-- Cabinet and cage management
-- Real-time pricing information
+### 🔐 **Security & Configuration**
+- **SSL/TLS Encryption**: Secure HTTPS communication
+- **Environment Variables**: Protected storage of sensitive credentials
+- **JSON Configuration**: Easy-to-manage settings files
+- **API Key Management**: Secure handling of third-party credentials
+- **Session Security**: Proper session handling and timeouts
 
-#### **WHOIS Lookup Service**
-- Automatic company information retrieval
-- AS number validation
-- Network block verification
-- Technical contact discovery
-- Abuse contact identification
-
-### 🏢 **Multi-Datacenter Support**
-- **Centralized Management**: Control multiple facilities from a single dashboard
-- **Location-Specific Configurations**: Custom settings per datacenter
-- **Cross-Facility Reporting**: Unified analytics across all locations
-- **Hierarchical Organization**: Support for regions, zones, and facilities
-- **Custom Metadata**: Flexible tagging and categorization system
-- **Bulk Operations**: Manage multiple datacenters simultaneously
-
-### 🔐 **Security & Compliance**
-- **SSL/TLS Encryption**: Secure all communications with HTTPS
-- **Role-Based Access Control**: Granular permission management
-- **API Key Management**: Secure storage and rotation of credentials
-- **Audit Logging**: Comprehensive activity tracking
-- **GDPR Compliance**: Built-in data privacy controls
-- **Session Management**: Secure session handling with timeouts
-- **Environment Variable Protection**: Sensitive data isolation
-
-### 📊 **Advanced Features**
-- **Real-Time Notifications**: WebSocket-based status updates
-- **Advanced Search**: Full-text search across all resources
-- **Custom Workflows**: Configurable approval processes
-- **Reporting Engine**: Generate operational and financial reports
-- **API Documentation**: Interactive API explorer for integrations
-- **Mobile Responsive**: Fully functional on tablets and smartphones
-- **Dark Mode**: Eye-friendly interface for 24/7 operations
+### 🏗️ **Multi-Datacenter Support**
+- **Centralized Management**: Handle multiple facilities from one interface
+- **Custom Configurations**: Datacenter-specific settings and defaults
+- **Location Templates**: Pre-configured settings per facility
+- **Bulk Operations**: Manage multiple locations simultaneously
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- **Node.js**: Version 18.0.0 or higher
-- **NPM**: Version 9.0.0 or higher
-- **Operating System**: Linux (Ubuntu 20.04+, Debian 11+, RHEL 8+, CentOS 8+)
-- **SSL Certificates**: Self-signed or CA-signed certificates
-- **Memory**: Minimum 2GB RAM
-- **Storage**: 10GB free disk space
+- Node.js 18.0.0 or higher
+- NPM 9.0.0 or higher
+- Linux server (Ubuntu/Debian/RHEL/CentOS)
+- SSL certificates (self-signed or CA-signed)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/isp-infrastructure-manager.git
-cd isp-infrastructure-manager
+git clone https://github.com/paolokappa/ISP-Infrastructure-Manager.git
+cd ISP-Infrastructure-Manager
 
-# Navigate to the application directory
+# Navigate to application directory
 cd loa-generator
 
 # Install dependencies
@@ -110,7 +93,7 @@ npm install
 cp config/company-settings.example.json config/company-settings.json
 cp .env.example .env
 
-# Edit configuration files with your details
+# Edit configuration with your details
 nano config/company-settings.json
 nano .env
 
@@ -118,37 +101,33 @@ nano .env
 mkdir certs
 openssl req -x509 -newkey rsa:4096 -keyout certs/key.pem -out certs/cert.pem -days 365 -nodes
 
-# Build the application
+# Build and start
 npm run build
-
-# Start the production server
 npm run start
 ```
 
-The application will be available at `https://localhost:8888`
+Access the application at `https://localhost:8888`
 
 ## 🔧 Configuration
 
-### Company Settings Configuration
+### Company Settings (config/company-settings.json)
 
 ```json
 {
   "company": {
     "name": "Your Company Name",
-    "legalName": "Your Company Legal Name",
+    "legalName": "Your Legal Entity Name",
     "vatNumber": "VAT-123456",
     "address": "123 Main Street",
     "city": "Your City",
     "postalCode": "12345",
     "country": "Your Country",
-    "asNumber": "AS12345",
-    "logoUrl": "/assets/logo.png"
+    "asNumber": "AS12345"
   },
   "loaTemplate": {
     "authorizedSignatory": "John Doe",
     "signatoryTitle": "Network Manager",
-    "defaultValidityDays": 365,
-    "templateVersion": "2.0"
+    "defaultValidityDays": 365
   },
   "api": {
     "equinixEnabled": false,
@@ -158,108 +137,76 @@ The application will be available at `https://localhost:8888`
 }
 ```
 
-### Environment Variables
+### Environment Variables (.env)
 
 ```bash
-# Application Settings
+# Application
 NODE_ENV=production
 PORT=8888
-NEXT_TELEMETRY_DISABLED=1
 
-# Optional API Integrations
-EQUINIX_CLIENT_ID=your_client_id
-EQUINIX_CLIENT_SECRET=your_client_secret
-PEERINGDB_API_KEY=your_api_key
+# API Keys (optional)
+EQUINIX_CLIENT_ID=your_client_id_here
+EQUINIX_CLIENT_SECRET=your_client_secret_here
+PEERINGDB_API_KEY=your_api_key_here
 ```
 
-## 📦 Architecture
+### Datacenter Configuration
 
-### Technology Stack
+Edit `config/datacenter-db.ts` to add your facilities:
 
-- **Frontend**: React 18.x with Next.js 13.5 App Router
-- **Styling**: Tailwind CSS with custom animations
-- **PDF Generation**: @react-pdf/renderer
-- **State Management**: React Context API
-- **Form Handling**: React Hook Form with Zod validation
-- **HTTP Client**: Axios with interceptors
-- **TypeScript**: Full type safety and IntelliSense
+```typescript
+{
+  id: "dc1",
+  name: "Your Datacenter",
+  displayName: "DC1",
+  address: "123 Data Center Way",
+  ourInfo: {
+    cabinet: "A01",
+    patchPanel: "PP-01",
+    maxPorts: 24
+  }
+}
+```
 
-### Project Structure
+## 📦 Project Structure
 
 ```
-isp-infrastructure-manager/
-├── app/                    # Next.js app directory
-│   ├── components/        # Reusable React components
-│   │   ├── LoaForm.tsx   # LoA generation form
-│   │   ├── PortManager.tsx # Port visualization
-│   │   └── ...
-│   ├── lib/              # Core libraries and utilities
-│   │   ├── pdf-template.tsx # PDF generation logic
-│   │   ├── equinix-api.ts  # Equinix integration
-│   │   ├── peeringdb.ts    # PeeringDB integration
-│   │   └── whois.ts        # WHOIS lookup service
-│   ├── api/              # API routes
-│   │   ├── settings/     # Settings management
-│   │   ├── loa/          # LoA generation endpoints
-│   │   └── ports/        # Port management APIs
-│   └── (routes)/         # Page components
-├── config/               # Configuration files
-│   ├── company-settings.json
-│   └── datacenter-db.ts
+loa-generator/
+├── app/
+│   ├── components/      # React components
+│   │   ├── LoaForm.tsx  # Main LoA generation form
+│   │   └── Navigation.tsx
+│   ├── lib/             # Core libraries
+│   │   ├── pdf-template.tsx  # PDF generation
+│   │   ├── peeringdb.ts     # PeeringDB API client
+│   │   ├── equinix-api.ts   # Equinix integration
+│   │   └── whois.ts         # WHOIS lookups
+│   ├── api/             # API routes
+│   └── (pages)/         # Next.js pages
+├── config/              # Configuration files
 ├── public/              # Static assets
-├── styles/              # Global styles
-└── certs/               # SSL certificates
+└── certs/              # SSL certificates
 ```
 
 ## 🛠️ Development
 
-### Development Mode
-
 ```bash
-# Run with hot-reload
+# Development mode with hot-reload
 npm run dev
-
-# Run with debugging
-npm run debug
 
 # Run linting
 npm run lint
 
 # Type checking
 npx tsc --noEmit
-```
 
-### Building for Production
-
-```bash
-# Create optimized production build
+# Production build
 npm run build
-
-# Start production server
-npm run start
-
-# Or use PM2 for process management
-pm2 start npm --name "isp-manager" -- run start
 ```
 
-### Testing
+## 🔌 API Endpoints
 
-```bash
-# Run unit tests
-npm test
-
-# Run integration tests
-npm run test:integration
-
-# Generate coverage report
-npm run test:coverage
-```
-
-## 🔌 API Documentation
-
-### RESTful API Endpoints
-
-#### LoA Generation
+### LoA Generation
 ```http
 POST /api/loa/generate
 Content-Type: application/json
@@ -267,168 +214,117 @@ Content-Type: application/json
 {
   "datacenter": "DC1",
   "requesterCompany": "Customer Corp",
-  "portNumber": "PP-01",
-  "connectionType": "single-mode",
-  "speed": "10G"
+  "portNumber": "1"
 }
 ```
 
-#### Port Management
+### PeeringDB Search
 ```http
-GET /api/ports/{datacenter}
-GET /api/ports/{datacenter}/{port_id}
-PUT /api/ports/{datacenter}/{port_id}/status
-POST /api/ports/{datacenter}/reserve
+GET /api/peeringdb/search?q=equinix
 ```
 
-#### Settings Management
+### Settings Management
 ```http
 GET /api/settings
 PUT /api/settings
-POST /api/settings/logo
 ```
 
-## 🚢 Deployment
+## 🚢 Production Deployment
 
-### Production Deployment with Systemd
+### Systemd Service
+
+Create `/etc/systemd/system/isp-infrastructure-manager.service`:
+
+```ini
+[Unit]
+Description=ISP Infrastructure Manager
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/path/to/loa-generator
+ExecStart=/usr/bin/npm run start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ```bash
-# Create systemd service
-sudo nano /etc/systemd/system/isp-infrastructure-manager.service
-
-# Enable and start service
 sudo systemctl enable isp-infrastructure-manager
 sudo systemctl start isp-infrastructure-manager
-
-# Check status
-sudo systemctl status isp-infrastructure-manager
 ```
 
-### Docker Deployment
+### Process Manager (PM2)
 
 ```bash
-# Build Docker image
-docker build -t isp-manager .
-
-# Run container
-docker run -d \
-  -p 8888:8888 \
-  -v /path/to/config:/app/config \
-  -v /path/to/certs:/app/certs \
-  --name isp-manager \
-  isp-manager
+pm2 start npm --name "isp-manager" -- run start
+pm2 save
+pm2 startup
 ```
 
-### Kubernetes Deployment
+## 🔒 Security Considerations
 
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: isp-manager
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: isp-manager
-  template:
-    metadata:
-      labels:
-        app: isp-manager
-    spec:
-      containers:
-      - name: isp-manager
-        image: isp-manager:latest
-        ports:
-        - containerPort: 8888
-```
+- Always use HTTPS in production
+- Store API credentials in environment variables
+- Regularly update dependencies
+- Implement proper firewall rules
+- Use strong SSL certificates
+- Enable rate limiting for API endpoints
+- Regular security audits
 
-## 🔒 Security Best Practices
+## 📋 System Requirements
 
-1. **Always use HTTPS** in production environments
-2. **Rotate API keys** regularly
-3. **Enable firewall rules** to restrict access
-4. **Use environment variables** for sensitive configuration
-5. **Implement rate limiting** for API endpoints
-6. **Regular security audits** and dependency updates
-7. **Enable CORS** only for trusted domains
-8. **Implement CSP headers** for XSS protection
+### Minimum Requirements
+- **CPU**: 2 cores
+- **RAM**: 2GB
+- **Storage**: 10GB
+- **OS**: Linux (Ubuntu 20.04+, Debian 11+, RHEL 8+)
+
+### Network Ports
+- `8888`: HTTPS application access
+- `443`: Outbound HTTPS for API calls
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Please read our [Contributing Guide](CONTRIBUTING.md) for details on:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- Code of Conduct
-- Development workflow
-- Submitting pull requests
-- Reporting issues
-- Feature requests
-
-### Development Setup
-
-```bash
-# Fork and clone the repository
-git clone https://github.com/yourusername/isp-infrastructure-manager.git
-
-# Create a feature branch
-git checkout -b feature/amazing-feature
-
-# Make your changes
-# Commit with conventional commits
-git commit -m "feat: add amazing feature"
-
-# Push to your fork
-git push origin feature/amazing-feature
-
-# Open a pull request
-```
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎯 Roadmap
+## 🙏 Acknowledgments
 
-### Q1 2024
-- [ ] Multi-language support (i18n)
-- [ ] Advanced reporting dashboard
-- [ ] Webhook integrations
-- [ ] Mobile applications (iOS/Android)
+- Built with modern web technologies
+- Integrates with industry-standard APIs
+- Designed for the ISP and datacenter community
 
-### Q2 2024
-- [ ] AI-powered capacity planning
-- [ ] Blockchain-based LoA verification
-- [ ] GraphQL API support
-- [ ] Real-time collaboration features
+## 📊 Technology Stack
 
-### Q3 2024
-- [ ] Machine learning for anomaly detection
-- [ ] Advanced automation workflows
-- [ ] Plugin architecture
-- [ ] White-label support
+- **Frontend**: React 18.x + Next.js 13.5
+- **Language**: TypeScript 5.x
+- **Styling**: Tailwind CSS
+- **PDF**: @react-pdf/renderer
+- **Forms**: React Hook Form + Zod
+- **HTTP**: Axios
+- **Node**: 18.x LTS
 
 ## 💬 Support
 
-- **Documentation**: [https://docs.example.com](https://docs.example.com)
-- **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/isp-infrastructure-manager/issues)
-- **Community Forum**: [https://forum.example.com](https://forum.example.com)
-- **Email Support**: support@example.com
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ for the ISP and datacenter community
-- Special thanks to all contributors and early adopters
-- Powered by open-source technologies
-
-## 📊 Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/isp-infrastructure-manager)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/isp-infrastructure-manager)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/isp-infrastructure-manager)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/isp-infrastructure-manager)
+- **Issues**: [GitHub Issues](https://github.com/paolokappa/ISP-Infrastructure-Manager/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/paolokappa/ISP-Infrastructure-Manager/discussions)
 
 ---
 
-**ISP Infrastructure Manager** - Enterprise-grade infrastructure management for the modern ISP
+## 👨‍💻 Credits
 
-*Copyright © 2026 ISP Infrastructure Manager Contributors. All rights reserved.*
+**Developed by [Paolo Caparrelli](https://github.com/paolokappa) - [GOLINE SA](https://www.goline.ch)**
+
+*Copyright © 2026 Paolo Caparrelli / GOLINE SA. Released under MIT License.*
