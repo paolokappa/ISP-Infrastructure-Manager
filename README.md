@@ -14,14 +14,12 @@
       <a href="https://www.peeringdb.com">
         <img src="./docs/images/peeringdb-logo.png" alt="PeeringDB" height="50"/>
       </a>
-      <h3>🌐</h3>
       <p>Complete integration with the global interconnection database for real-time facility and network operator data</p>
     </td>
     <td align="center" width="50%">
       <a href="https://www.equinix.com">
         <img src="./docs/images/equinix-logo-official.svg" alt="Equinix" height="50"/>
       </a>
-      <h3>🏢</h3>
       <p>Direct API connection for automated port management and cross-connect provisioning</p>
     </td>
   </tr>
