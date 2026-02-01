@@ -12,7 +12,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.equinix.com">
-    <img src="https://img.shields.io/badge/Equinix-API_Integration-EE0000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em0tMi0xM2gtMnY2aDJWN3ptMCA4aC0ydjJoMnYtMnoiLz48L3N2Zz4=" alt="Equinix"/>
+    <img src="./docs/images/equinix-logo-official.svg" alt="Equinix" height="60"/>
   </a>
 </p>
 
