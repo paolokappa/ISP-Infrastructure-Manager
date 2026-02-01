@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 ISP Infrastructure Manager
+# 🏢 ISP Infrastructure Manager
 
 ### Enterprise-Grade Infrastructure Management Platform for ISPs
 
